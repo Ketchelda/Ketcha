@@ -1,0 +1,87 @@
+ .gwo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 190px;
+    }
+
+    .card {
+      width: 300px;
+      height: 290px;
+      border: solid 1px;
+      position: relative;
+    }
+
+    .video-image {
+      height: 150px;
+      width: 300px;
+      display: flex;
+    }
+
+    .video-image img {
+      width: 100%;
+    }
+
+    .image-profil {
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .image-profil img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 100px;
+    }
+
+    .popup-img {
+      display: none;
+      position: absolute;
+      top: -10px;
+      left: 60px;
+      z-index: 1000;
+      background-color: white;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 5px;
+    }
+
+    .popup-img img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 100px;
+    }
+
+    .image-profil:hover .popup-img {
+      display: block;
+    }
+
+    .kenbe {
+      display: flex;
+      gap: 10px;
+    }
+
+    .text-video-description p {
+      margin: 0;
+    }
+
+    .anba {
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .bwat {
+      background-color: black;
+      color: white;
+      width: 60px;
+      height: 33px;
+      right: 10px;
+      bottom: 150px;
+      position: absolute;
+      margin-top: 60px;
+    }
